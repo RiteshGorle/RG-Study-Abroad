@@ -1,0 +1,420 @@
+
+/* WebSite Name: Study Abroad
+   Made by: Ritesh Gorle
+   Created: Sept. 2023
+   Content: Study Abroad
+*/
+
+/*****************************************
+Table Of Contents:
+
+ 00. BASIC CSS STYLES
+ 01. SECTION 01: HEADER-NAVIGATION 
+ 02. SECTION 02 and SECTION 03
+ 03. SECTION 04: SPLIT-CAROUSEL
+ 04. SECTION 05: RANK START
+ 05. SECTION 06: BOY START
+ 06. SECTION 07: TESTIMONIAL
+ 07. SECTION 08: FOOTER START
+
+******************************************/
+
+
+/***********************************/
+/*      00. BASIC CSS STYLES      */
+/***********************************/
+body {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+/***************************************************/
+/*      01. SECTION 01: HEADER-NAVIGATION          */
+/***************************************************/
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+/* Style the header container */
+.header {
+    position: relative;
+}
+
+/* Style the background image */
+.header img {
+    width: 100%;
+    height: auto;
+}
+
+/* Style the navbar */
+.navbar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: 20px;
+    z-index: 9999;
+}
+
+.navbar-brand{
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px, rgb(51, 51, 51) 0px 0px 0px 3px;
+    font-weight: 900;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.collapse{
+    background: none;
+}
+
+
+.below{
+  position: absolute;
+    top: 80px;
+    left: 0;
+    right: 0;
+    padding: 20px;
+}
+
+
+.content-para{
+    font-size: 20px;
+}
+
+.content-head{
+    font-size: 50px;
+    font-weight: 600;
+}
+
+.btn {
+  border: none;
+  color: white;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.success {background-color: black} 
+.success:hover {background-color: yellow;}
+
+
+ul#button li {
+  display:inline;
+  padding: 10px;
+  
+}
+
+
+@media only screen and (max-width: 900px) {
+
+.content-para{
+    font-size: 11px;
+}
+
+.content-head{
+    font-size: 20px;
+}
+
+
+}
+
+
+
+
+@media only screen and (max-width: 600px) {
+  
+  .collapse{
+    background-color: red;
+}
+
+
+  .btn {
+  
+  padding: 8px 12px;
+  font-size: 4px;
+  
+}
+
+.content-para{
+    font-size: 6px;
+}
+
+.content-head{
+    font-size: 14px;
+}
+
+
+}
+
+
+
+
+
+/***************************************************/
+/*      02. SECTION 02 and SECTION 03              */
+/***************************************************/
+
+.why{
+  width: 100%;
+  height: auto;
+}
+
+
+
+/***************************************************/
+/*      03. SECTION 04: SPLIT-CAROUSEL             */
+/***************************************************/
+
+.split-head{
+    font-size: 40px;
+    font-weight: 600;
+}
+
+
+.split-para{
+    font-size: 17px;
+}
+
+.card{
+    width: 350px;
+}
+
+.btn1 {
+  border: none;
+  color: white;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+
+@media only screen and (max-width: 600px) {
+.btn1 {
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+
+}
+
+
+
+
+/***************************************************/
+/*      04. SECTION 05: RANK                       */
+/***************************************************/
+
+#BGcolor {
+ background-image: url("Rectangle BG.png");
+ height: 260px;
+}
+
+.rank-head{
+    font-size: 40px;
+    font-weight: 600;
+}
+
+
+@media only screen and (max-width: 600px) {
+.rank-head{
+    font-size: 18px;
+    font-weight: 600;
+}
+
+}
+
+.btn2 {
+  border: none;
+  color: white;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+
+@media only screen and (max-width: 600px) {
+.btn2 {
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  padding-bottom: 10px;
+}
+
+
+}
+
+/***************************************************/
+/*      05. SECTION 06: BOY                        */
+/***************************************************/
+.boy{
+     position: relative;
+}
+
+
+.boy-side{
+  position: absolute;
+    top: 50px;
+    left: 640px;
+    right: 0;
+    padding: 20px;
+}
+
+
+.boy-side-head{
+    font-size: 40px;
+}
+
+.boy-side-head-table{
+    font-size: 35px;
+    font-weight: 600;
+}
+
+.boy-side-para{
+   font-size: 16px; 
+}
+
+
+.btn3 {
+  border: none;
+  color: white;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+
+@media only screen and (max-width: 900px) {
+
+.boy-side{
+  
+    top: 30px;
+    left: 400px;
+    right: 0;
+    padding: 20px;
+}
+
+
+.boy-side-head{
+    font-size: 20px;
+}
+
+}
+
+@media only screen and (max-width: 600px) {
+
+.boy-side{
+  
+    top: 30px;
+    left: 250px;
+    right: 0;
+    padding: 20px;
+}
+
+
+.boy-side-head{
+    font-size: 16px;
+}
+
+
+.btn3 {
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  font-size: 12px;
+  cursor: pointer;
+}
+
+}
+
+
+@media only screen and (max-width: 400px) {
+
+.boy-side{
+  
+    top: 30px;
+    left: 200px;
+    right: 0;
+    padding: 20px;
+}
+
+
+.boy-side-head{
+    font-size: 14px;
+}
+
+.btn3 {
+  border: none;
+  color: white;
+  padding: 7px 16px;
+  font-size: 10px;
+  cursor: pointer;
+}
+
+
+
+
+}
+
+
+ul#boy-side-list li {
+  display:inline;
+  padding: 10px;
+}
+
+
+
+@media screen and (min-width: 0px) and (max-width: 1200px) {
+  #my-content { display: none; }  /* hide it elsewhere */
+
+ 
+}
+
+@media screen and (min-width: 1201px) and (max-width: 4000px) {
+  #my-content { display:block; }  /* show it on big screens */
+   
+   
+}
+
+
+
+
+/***************************************************/
+/*      06. SECTION 07: TESTIMONIAL                */
+/***************************************************/
+
+.testi-para{
+    font-size: 12px;
+}
+
+
+
+
+/***************************************************/
+/*      07. SECTION 08: FOOTER                     */
+/***************************************************/
+ul#menu li {
+  display:inline;
+  padding: 30px;
+  font-size: 16px;
+}
+
+
+@media only screen and (max-width: 600px) {
+
+ul#menu li {
+  display:inline;
+  padding: 10px;
+  font-size: 12px;
+}
+
+}
+
